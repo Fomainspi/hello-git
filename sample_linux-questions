@@ -1,0 +1,255 @@
+
+Linux 300+ Technical Interview Questions    
+
+  1. When you login you get “$” prompt, what is the prompt for root? 
+                         # 
+  2. Explain the difference between grep and egrep? 
+                   Search online
+  3. What is the port # for DNS, NTP and NFS? 
+                  53,123 and 111/2049 
+4. What is the configuration file name of DNS and where is it located? 
+                  /etc/named.conf 
+5. How many new directories will be created after running the following command 
+                  mkdir {a..c}{1..3}  9
+6. Your PC is configured with a DNS server address but not the default gateway. Can the PC access internet? 
+                      No 
+7. What is the difference between IP and Gateway? 
+                   Search online 
+8. Can you assign one static IP to 2 computers, if not then why? 
+                   No because it will create IP conflict 
+9. How to change IPs address to static? 
+                   ifconfig x.x.x.x 
+10. You are trying to ping a server by hostname and you get an error message, “ping: unknown host …”.  What could be the reason and how to solve the problem so you can ping it by hostname?
+                   Check for /etc/hosts or DNS to see if it has hostname to IP entry
+11. Explain the difference between relative and absolute path? 
+                   Absolute path starts from / where relative path is your current directory
+12. List 3 different methods of adding user?
+                   Search online
+13- What is the command to change file/directory ownership and group?
+                        chown and chgrp 
+14- List any 3 type of filesystem? 
+                     ext4,NTFS and FAT 
+15- When you login you get a message on the screen.  What is the name of that file and where is it located? 
+                                 /etc/motd 
+16- What is /bin directory used for?
+                        earch online 
+17- What are the different types of DNS Server 
+                        Master and secondary
+18- How to change a user password?
+                         passwd username                  
+19- What is the version of Redhat Linux you have experience with? 
+                             7.4 
+20- List any 4 linux distributions? 
+                    Redhat, CentOS, Ubuntu and SUSE 
+21- How to logoff from the system? 
+                      exit 
+22- Give any 3 examples of operating systems? 
+                      Windows, Linux and MAC 
+23- How to create a directory? 
+                          mkdir 
+24- Where are the zone files located for DNS service? 
+                     /var/named/zonefiles 
+25- How to check kernel version? 
+                   uname –a 
+26- Which directory has all the configuration files? 
+                            /etc 
+27- How to become root user from a regular user? 
+                           su – 
+28- How many mega bytes in 1 giga bytes? 
+                 search online 
+29- What is the purpose of having different network ports? 
+                So the communication of each application goes through a dedicated port 
+30- How to display first column of a file? 
+              cat filename | awk ‘{print $1}’ 
+31- What is the name of DNS rpm package? 
+                      bind 
+32- What is the difference between nslookup and dig commands? 
+                   Search online 
+33. How to check your user id and group id? 
+                      id 
+34- How to check a file’s permission? 
+                    ls –l  
+35- What is the difference between “kill” and “kill -9” command? 
+                  Search online 
+36- What is subnet? 
+                 Search online 
+37- You are troubleshooting an issue with Redhat support and they have asked you to send the contents of /etc directory.  How and which method you will use to transfer the contents? 
+                tar (compress) the entire /etc directory and ftp 
+38- what is root home directory? 
+                /root 
+39- What is rsyslogd deamon and its purpose? 
+                 Search online 
+40- Your company has terminated a server administrator. What is first thing as an administrator you should do to enhance the security? 
+                    Change root password 
+41- How to check the computer name or host name in Linux? 
+                    hostname 
+42- Which permission allows a user to run an executable with the permissions of the owner of that file? 
+                    First 3 bits should have x 
+43- What is the command to untar a tarred files?
+                      untar 
+44- What is /proc directory used for? 
+                    Search online 
+45- What is the purpose of nsswitch.conf file 
+                  It tells the system where to go to resolve hostnames 
+46- List 3 basic commands to navigate the filesystem? 
+                      cd, pwd and ls 
+47- Which service/daemon should be running on the server that allows you to connect remotely? 
+                   sshd 
+48- What is the purpose of firewall? 
+                Search online 
+49- List any 3 IT components? 
+             Hardware, OS and Applications 
+50- Which directory has all the commands we use, e.g. ls, cd etc.?  
+             /usr/bin or /bin 
+51- What is the difference between memory, virtual memory and cache? 
+            Search online 
+52- Which of the following is correct? 
+                Hardware  → Operating System  → Users 
+                Operating System → Users → Hardware 
+                Database  → Hardware  → Users 
+53. Which of the following is a communication command? 
+              grep , mail , touch , cd 
+54. How to rename a file or directory? 
+                mv 
+55- How to change a hostname in Linux? 
+           S  earch online 
+56- How to check network interfaces in Linux? 
+               ifconfig 
+57- Why is “tail –f logfilename” command used most often and what does it do? 
+            It will output all incoming logs in real time 
+58- What type of hardware have you worked on? 
+          You should get yourself familiar with Dell, HP and UCS hardware by going online and check the vendor websites 
+59- How to sort a file in reverse order? 
+            cat filename | sort –r 
+60- What is the name of operating system that runs Unix? 
+             Solaris, HP-UX etc. 
+61- List all byte sizes from smallest to largest? 
+             Search online 
+62- How to check the total number of partition in Linux? 
+            fdisk -l 
+63- How to access a linux system from a linux system? 
+            ssh 
+64- Explain the procedure of bonding 2 NICs or interfaces together? 
+            Search online 
+65- What is the exact command syntax to list the 5th column of a file and cut the first 3 letters? 
+            cat filename | awk ‘{print $5}’ | cut –c1-3 
+66- What is /etc/hosts file used for? 
+            To resolve hostnames with IP address 
+67- List any 3 options of ‘df’ command and what they are used for? 
+            Search online 
+68- What is the command to change file/directory permissions? 
+            chmod 
+69- What is the purpose of pipe (|)? 
+            To combine multiple commands 
+70- What is /etc directory used for? 
+            For configuration files 
+71- Which command is used to list files in a directory? 
+            ls –l 
+72- There is a command which gives you information about other commands, please explain that command and what is it used for? 
+              man 
+73- How to delete a file and a directory? 
+            rm filename and rmdir dirname 
+74- What is the difference between “tail” and “tail -10”? 
+            None 
+75- List 4 commands to display or read a file contents? 
+            cat, more, less, vi 
+76- Which command is used to read the top 5 lines of a file? 
+            head -5 filename 
+77- What are the different commands or methods to write to a file? 
+            echo > filename and vi filename 
+78- What is swap space and how to check swap space? 
+            Search online 
+79- What is inode and how to find an inode of a file? 
+            Search online 
+80- Which file to edit for kernel tuning? 
+            Search online 
+81- What is the latest version of Redhat? 
+            Search online 
+82- Name the command to find specific word from a file? 
+            grep word filename 
+83- You have scheduled a job using crontab but it does not run at the time you specified, what could be the reason and how would you troubleshoot? 
+            Check your system time 
+            Check your crontab entry 
+            Check /var/log/messages 
+84- How to check system hardware information? 
+            dmidecode 
+85- How to check network interface MAC address? 
+            ifconfig 
+86- If I don’t want others to read my file1, how to do that? 
+            Remove r from the last 3 bits of file permission 
+87- What is the purpose of “uniq” and “sed” command? 
+            Search online 
+88- Which command is used to list the contents of a directory in the most recent time and in reverse order, meaning the most updated file should be listed on the bottom? 
+            ls –ltr 
+89- What is the difference between tar, gzip and gunzip? 
+             Search online 
+90- What are the different ways to install and OS? 
+             DVD, DVD iso and network boot 
+91- How to view difference between two files? 
+             diff file1 and file2 
+92- You noticed that one of the Linux servers has no disk space left, how would you troubleshoot that issue? 
+             If running LVM then add more disk and extend LVM 
+             If not running LVM then add more disk, create a new partition and link the new partition to an existing file system 
+93- How to check Redhat version release? 
+             uname –a or /etc/redhat-release 
+94- What is the difference between TCP and UDP? 
+             Search online 
+95- What is a zombie process? 
+             Search online 
+96- How do you search for a pattern/word in a file and then replace it in an entire file?  
+             sed command 
+97- Explain the purpose of “touch” command? 
+             To create an empty file 
+98- If a command hangs, how to stop it and get the prompt back? 
+            Ctrl C 
+99- Which command is used to count words or lines? 
+             wc 
+100- How to check the number of users logged in? 
+             who 
+101- What is the command to view the calendar of 2011? 
+             cal 2011 
+102-  Which command is used to view disk space? 
+             df –h 
+103-  How to create a new group in Linux? 
+             groupadd 
+104-  What is the command to send a message to everyone who is logged into the system? 
+             wall 
+105-  Which command is used to check total number of disks? 
+            fdisk –l 
+106-  What is an mail server record in DNS? 
+             MX 
+107-  What does the following command line do?           
+              ps -ef | awk '{print $1}' | sort | uniq 
+              List the first column  of all running processes, sort them and  remove duplicates 
+108-  You get a call that when a user goes to www.yourwebsite.com it fails and gets an error, how do you troubleshoot? 
+               Check for user internet 
+               Check to see if user computer has DNS for hostname lookup 
+               Check to see if the server is up that is running that website 
+               Check to see if the server’s web service is running  
+               Check for DNS availability which is resolving that website 
+109-  List 4 different directories in /? 
+               /etc, /bin, /tmp, /home 
+ 
+110. What is the output of the following command:    $tail -10 filename | head -1 
+           It will show the first line from the last 10 lines of a file 
+ 
+111. What are the different fields in /etc/passwd file? 
+            Search online 
+ 
+112. Which command is used to list the processes? 
+           ps –ef  
+ 
+113. What is the difference between “hostname” and “uname” commands? 
+                 Hostname will give you system name and uname will give you OS information 
+ 
+114. How to check system load? 
+            top and uptime command 
+115. How to schedule jobs? 
+            crontab and at 
+116. What is the 3rd field when setting up crontab? 
+          Day of the month 
+117.  What is the command to create a new user? 
+        useradd 
+118. What is the “init #”
+           for system reboot? 
+119. How to restart a service? 
